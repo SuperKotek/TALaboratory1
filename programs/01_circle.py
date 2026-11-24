@@ -29,7 +29,7 @@ point_1 = (23, 34)
 #       операции сравнения дают булевы константы True и False
 def IsPointInCircle(point, radius):
 
-    Pifog = math.pow(point[0]^2 + point[1]^2, 0.5)
+    Pifog = math.pow(point[0]**2 + point[1]**2, 0.5)
     if Pifog > radius:
         print(False)
     else:
